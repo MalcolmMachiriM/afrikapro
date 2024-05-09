@@ -3,17 +3,17 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className='min-h-fit min-w-fit py-8 sm:py-16relative'>
-      <div className='h-[700px] sm:h-[890px] w-full bg-cover bg-center absolute inset-0 -z-10' style={{backgroundImage: "url(/deet.png)"}}>
+    <main className="min-h-fit min-w-fit py-8 sm:py-16relative">
+      <div className="h-[700px] sm:h-[890px] w-full bg-cover bg-center absolute inset-0 -z-10" style={{backgroundImage: "url(/deet.png)"}}>
         
       </div>
       <div className="SectionContainer">
         <section className="grid grid-cols-1 sm:grid-cols-4">
           <div className="sm:col-span-3 flex flex-col justify-around px-2">
-            <h1 className='text-[50px] text-white font-semibold'>
+            <h1 className="text-[50px] text-white font-semibold">
               AFRICAPRO 2024
             </h1>
-            <Link href='/2024-afrikapro-entry-form' className='flex border w-fit mt-4 pr-6 space-x-4 cursor-pointer group select-none'>
+            <Link href="/2024-afrikapro-entry-form" className="flex border w-fit mt-4 pr-6 space-x-4 cursor-pointer group select-none">
             <img src="/svgs/button_hover_white.svg" alt="button line" className="w-11 h-auto invisible group-hover:visible globalTransition "/>
               <span className="py-2 group-hover:translate-x-2 globalTransition">
                 2024 Entry Form
@@ -21,7 +21,7 @@ export default function Home() {
               <img src="/svgs/white_arrow_right.svg" alt="arrow" className="w-5 h-auto"/>
             </Link>
             <div className="flex gap-4 sm:gap:8 overflow-x-scroll sm:overflow-visible">
-            <Link href='/'>
+            <Link href="/">
               <div className="relative w-60 sm:w60 h-32 sm:h-40 flex flex-col justify-around group">
                 <div className="absolute h-32 sm:h-40 w-full overflow-hidden">
                   <Image src="/p1.png" alt="pic1" loading="lazy" width="400" height="160" decoding="async" className="object-cover w-full h-full group-hover:scale-125 globalTransition brightness-75 "style={{color:"transparent"}}  />
@@ -30,7 +30,7 @@ export default function Home() {
                 <span className="z-10 px-4 text-sm text-textGray font-heebo absolute bottom-1 left-0">7 days ago</span>
               </div>
             </Link>
-              <Link href='/'>
+              <Link href="/">
                 <div className="relative w-60 sm:w60 h-32 sm:h-40 flex flex-col justify-around group">
                   <div className="absolute h-32 sm:h-40 w-full overflow-hidden">
                     <Image src="/p2.jpeg" alt="pic1" loading="lazy" width="400" height="160" decoding="async" className="object-cover w-full h-full group-hover:scale-125 globalTransition brightness-75 "style={{color:"transparent"}}  />
@@ -39,7 +39,7 @@ export default function Home() {
                   <span className="z-10 px-4 text-sm text-textGray font-heebo absolute bottom-1 left-0">8 days ago</span>
                 </div>
               </Link>
-              <Link href='/'>
+              <Link href="/">
                 <div className="relative w-60 sm:w60 h-32 sm:h-40 flex flex-col justify-around group">
                   <div className="absolute h-32 sm:h-40 w-full overflow-hidden">
                     <Image src="/p3.jpeg" alt="pic2" loading="lazy" width="400" height="160" decoding="async" className="object-cover w-full h-full group-hover:scale-125 globalTransition brightness-75 "style={{color:"transparent"}}  />
