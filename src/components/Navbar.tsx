@@ -77,7 +77,23 @@ const Navbar = () => {
                     <div className='hidden sm:flex items-center gap-6'>
                         <div className='flex justify-center items-center border rounded-full w-16 h-16'>
                             <span className='text-2xl font-bold text-white'>
-                                <div className='flex gap-2 dropdown drop'></div>
+                                <div className='flex gap-2 dropdown dropdown-button cursor-pointer'>
+                                    <div className='font-bold text-white text-xl'>
+                                        <span tabIndex={0}>EN</span>
+                                        <ul tabIndex={0} className='dropdown-content menu menu p-2 shadow bg-base-100 w-20 text-black'>
+                                            <li>
+                                                <Link href='/' hrefLang='en'>EN</Link>
+                                            </li>
+                                            <li>
+                                                <Link href='/' hrefLang='es'>ES</Link>
+                                            </li>
+                                            <li>
+                                                <Link href='/' hrefLang='fr'>FR</Link>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <img src="/svgs/menu_down_arrow.svg" tabIndex={0} alt="down menu" className='w-4 h-auto'/>
+                                </div>
                             </span>
                         </div>
                     </div>
