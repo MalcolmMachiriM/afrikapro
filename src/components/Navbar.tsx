@@ -55,7 +55,7 @@ const Navbar = () => {
                             </Link>
                             <Link href="/">
                                 <div className="flex flex-col items-center group">
-                                    T & C&apos;s
+                                    T & C &apos; s
                                     <div className="w-4 border globalTransition group-hover:visible invisible"></div>
                                 </div>
                             </Link>
