@@ -80,17 +80,14 @@ const Navbar = () => {
                                 <div className='flex gap-2 dropdown dropdown-button cursor-pointer'>
                                     <div className='font-bold text-white text-xl'>
                                         <span tabIndex={0}>EN</span>
-                                        <ul tabIndex={0} className='dropdown-content menu menu p-2 shadow bg-base-100 w-20 text-black'>
+                                        {/* <ul tabIndex={0} className='dropdown-content menu p-2 shadow bg-base-100 w-20 text-black'>
                                             <li>
-                                                <Link href='/' hrefLang='en'>EN</Link>
+                                                <Link href='/' hrefLang='en' className='active:bg-[#958675] bg-[#958675] text-white'>EN</Link>
                                             </li>
                                             <li>
-                                                <Link href='/' hrefLang='es'>ES</Link>
+                                                <Link href='/' hrefLang='es' className='active:bg-[#958675] text-white'>ES</Link>
                                             </li>
-                                            <li>
-                                                <Link href='/' hrefLang='fr'>FR</Link>
-                                            </li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                     <img src="/svgs/menu_down_arrow.svg" tabIndex={0} alt="down menu" className='w-4 h-auto'/>
                                 </div>
