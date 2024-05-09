@@ -55,9 +55,9 @@ export default function Home() {
               <img src="/versale_laga.png" alt="versal logo" loading="lazy"  width="1272" height="288" decoding="async" className="object-contain h-20 w-full mb-4"style={{color:"transparent"}}/>
             </Link>
             <aside>
-              <div className="bg-brown text-center py-4"><span className="text-2xl font-bold">2023 Ranking</span>
+              <div className="bg-[#958675] text-center py-4"><span className="text-2xl font-bold">2023 Ranking</span>
               </div>
-              <div className="flex items-center bg-gray p-2 text-textOffBlack">
+              <div className="flex items-center bg-[#C5C5C5] p-2 text-[#383838]">
                 <div className="avatar">
                     <div className="w-20">
                       <img alt="Team Profile" loading="lazy" width="128" height="128" decoding="async" data-nimg="1" className="border border-leaderboardActiveGray rounded-lg" style={{color:"transparent"}} src="/images/ayo.jpg">
@@ -74,7 +74,7 @@ export default function Home() {
                 </div>
                 <img src="/images/black_blazer.png" alt="competition icon" className="rounded-full w-20 h-20 object-contain"></img>
               </div>
-              <div className="flex items-center bg-tableGray p-2 text-textOffBlack">
+              <div className="flex items-center bg-white p-2 text-[#383838]">
                 <div className="avatar">
                     <div className="w-20">
                       <img alt="Team Profile" loading="lazy" width="128" height="128" decoding="async" data-nimg="1" className="border border-leaderboardActiveGray rounded-lg" style={{color:"transparent"}} src="/images/ben.jpg">
@@ -91,7 +91,7 @@ export default function Home() {
                 </div>
                 <img src="/images/blue_blazer.png" alt="competition icon" className="rounded-full w-20 h-20 object-contain"></img>
               </div>
-              <div className="flex items-center bg-tableGray p-2 text-textOffBlack">
+              <div className="flex items-center bg-[#C5C5C5] p-2 text-[#383838]">
                 <div className="avatar">
                     <div className="w-20">
                       <img alt="Team Profile" loading="lazy" width="128" height="128" decoding="async" data-nimg="1" className="border border-leaderboardActiveGray rounded-lg" style={{color:"transparent"}} src="/images/cri.jpg">
@@ -108,7 +108,7 @@ export default function Home() {
                 </div>
                 <img src="/images/country_trophy.png" alt="competition icon" className="rounded-full w-20 h-20 object-contain"></img>
               </div>
-              <div className="flex items-center bg-tableGray p-2 text-textOffBlack">
+              <div className="flex items-center bg-white p-2 text-[#383838]">
                 <div className="avatar">
                     <div className="w-20">
                       <img alt="Team Profile" loading="lazy" width="128" height="128" decoding="async" data-nimg="1" className="border border-leaderboardActiveGray rounded-lg" style={{color:"transparent"}} src="/images/mic.jpg">
@@ -125,7 +125,7 @@ export default function Home() {
                 </div>
                 <img src="/images/race_trophy.png" alt="competition icon" className="rounded-full w-20 h-20 object-contain"></img>
               </div>
-              <div className="flex items-center bg-tableGray p-2 text-textOffBlack">
+              <div className="flex items-center bg-[#C5C5C5] p-2 text-[#383838]">
                 <div className="avatar">
                     <div className="w-20">
                       <img alt="Team Profile" loading="lazy" width="128" height="128" decoding="async" data-nimg="1" className="border border-leaderboardActiveGray rounded-lg" style={{color:"transparent"}} src="/images/vin.jpg">
