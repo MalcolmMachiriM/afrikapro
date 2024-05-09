@@ -21,7 +21,7 @@ export default function Home() {
               <img src="/svgs/white_arrow_right.svg" alt="arrow" className="w-5 h-auto"/>
             </Link>
             <div className="flex gap-4 sm:gap:8 overflow-x-scroll sm:overflow-visible">
-            <Link href=''>
+            <Link href='/'>
               <div className="relative w-60 sm:w60 h-32 sm:h-40 flex flex-col justify-around group">
                 <div className="absolute h-32 sm:h-40 w-full overflow-hidden">
                   <Image src="/p1.png" alt="pic1" loading="lazy" width="400" height="160" decoding="async" className="object-cover w-full h-full group-hover:scale-125 globalTransition brightness-75 "style={{color:"transparent"}}  />
@@ -30,7 +30,7 @@ export default function Home() {
                 <span className="z-10 px-4 text-sm text-textGray font-heebo absolute bottom-1 left-0">7 days ago</span>
               </div>
             </Link>
-              <Link href=''>
+              <Link href='/'>
                 <div className="relative w-60 sm:w60 h-32 sm:h-40 flex flex-col justify-around group">
                   <div className="absolute h-32 sm:h-40 w-full overflow-hidden">
                     <Image src="/p2.jpeg" alt="pic1" loading="lazy" width="400" height="160" decoding="async" className="object-cover w-full h-full group-hover:scale-125 globalTransition brightness-75 "style={{color:"transparent"}}  />
@@ -39,7 +39,7 @@ export default function Home() {
                   <span className="z-10 px-4 text-sm text-textGray font-heebo absolute bottom-1 left-0">8 days ago</span>
                 </div>
               </Link>
-              <Link href=''>
+              <Link href='/'>
                 <div className="relative w-60 sm:w60 h-32 sm:h-40 flex flex-col justify-around group">
                   <div className="absolute h-32 sm:h-40 w-full overflow-hidden">
                     <Image src="/p3.jpeg" alt="pic2" loading="lazy" width="400" height="160" decoding="async" className="object-cover w-full h-full group-hover:scale-125 globalTransition brightness-75 "style={{color:"transparent"}}  />

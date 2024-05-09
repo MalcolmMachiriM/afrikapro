@@ -1,8 +1,7 @@
 {
   "extends": "next/core-web-vitals",
   "rules": {
-    "no-unused-vars": "off",
-    "no-console": "off"
+    "react/no-unescaped-entities": "off"
     // Add more rules to disable as needed
   }
 }
